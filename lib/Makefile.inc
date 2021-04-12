@@ -172,13 +172,13 @@ LIB_CFILES =         \
   non-ascii.c        \
   nonblock.c         \
   openldap.c         \
+  openlock.c         \
   parsedate.c        \
   pingpong.c         \
   pop3.c             \
   progress.c         \
   psl.c              \
   rand.c             \
-  rename.c           \
   rtsp.c             \
   select.c           \
   sendf.c            \
@@ -291,6 +291,7 @@ LIB_HFILES =         \
   netrc.h            \
   non-ascii.h        \
   nonblock.h         \
+  openlock.h         \
   parsedate.h        \
   pingpong.h         \
   pop3.h             \
@@ -298,7 +299,6 @@ LIB_HFILES =         \
   psl.h              \
   quic.h             \
   rand.h             \
-  rename.h           \
   rtsp.h             \
   select.h           \
   sendf.h            \
